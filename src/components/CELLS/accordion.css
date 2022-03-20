@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}   
+
+
+.cell_name{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-right: 3px;
+}
+
+.wrapper_title img {
+    max-width: 4em;
+    min-width: 4em;
+    min-height: 4em;
+    margin: 0 15px 0 0;
+
+}
+.wrapper_title{
+    display: flex;
+    align-items: center;
+}
+
+.accordion_content {
+    overflow-y: hidden;
+    transition: max-height .4s  ease-in-out;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-weight: 400;
+    overflow-x: scroll;
+
+}
+.accordion{
+    width: 100%;
+    padding: 20px 20px 0px;
+    border: none;
+    outline: none;
+    user-select:none;
+    margin: 0 auto;
+    font-size: calc(4px + 1vw);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    color: #c7c7c7;
+    background: rgb(41, 57, 73);
+    border-bottom: 3px solid rgba(255,255,255,.05);
+}
+
+.accordion_content ul {
+    padding: 30px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: calc(5px + 1vw);
+}
+
+
+@media (max-width:804px) {
+    .accordion{
+        font-size: calc(8px + 1vw);
+
+    }
+    .accordion_content ul{
+        font-size: calc(11px + 1vw);
+    }
+}
+
+
+
+
+.accordion.active:active{
+    transition: background .3s linear;
+    background: rgb(64, 90, 115);
+}
+
+.accordion:hover .cell_name { 
+    color: rgb(26, 188, 156); 
+    transition: color .3s linear;
+}
+.accordion.active .cell_name {
+    color: rgb(199, 199, 199);
+    transition: color .3s linear;
+}
+
+
+.accordion:active {
+    transition: background .2s linear;
+    background: rgb(64, 90, 115);
+
+}
+.accordion.active{
+    box-shadow: rgba(0, 0, 0, .35) 0 5px 15px ;
+    background: rgb(35, 49, 63);
+    transition: background .3s linear;
+    
+}
+
+
+
+.wrapper div{
+    text-align: left;
+}
+.wrapper{
+    width: 100%;
+    padding: 0 .5em 2em 1.2em;    
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    user-select: none;
+}
+
+li:not(:last-child) {
+    margin-bottom: 15px;
+}
+   

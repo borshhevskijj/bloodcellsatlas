@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    .App{
+        width: 100%;
+        height: 100%;
+    }
+.APPBAR{
+    background:linear-gradient(to left ,#47657e , #091a38);
+}
+
+@media (max-width:805px ) {
+    .navbar header{
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        overflow-x: scroll;
+        min-height: 60px;
+    }
+    .navbar header::-webkit-scrollbar{
+        width: 2px;
+        height: 2px;
+        }
+
+}
+
+.navbar_link{
+    text-decoration: none;
+    position: relative;
+    color: rgb(206, 203, 203);
+    transition: all .1s linear;
+    display: inline-block;
+    margin-left: .85em;
+}
+
+
+
+
+.navbar_link::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2.5px;
+    background-color: rgb(26, 188, 156, .6);
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+  .navbar_link:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+
+.navbar_link:not(:last-child){
+    margin-right : 1em;
+}
+.navbar_link:hover{
+    color: rgba(206, 203, 203,.7);
+}
+
+/*  */
+/* .navbar_link:focus {
+    transition: all .3s linear;
+    color: red;    
+} */
+
+.navbar_link.active  {
+    color: rgb(26, 188, 156, .6);
+    transition: all .2s linear;
+    transform:scale(1.2, 1.2);
+    bottom: 2px;
+}
+  
+/*  */
+@media (min-width:1700px) {
+    .APPBAR{
+        padding: 1.2em;
+    }
+    .navbar_link{
+        font-size: 1.8em;
+    }
+}
+
