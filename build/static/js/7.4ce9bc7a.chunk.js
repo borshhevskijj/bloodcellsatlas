@@ -1,0 +1,2 @@
+(this["webpackJsonpnew-react-prod"]=this["webpackJsonpnew-react-prod"]||[]).push([[7],{528:function(e,t,c){"use strict";c.r(t);c(0);var n=c(74),r=c(126),s=c(1);t.default=function(){return Object(s.jsx)("div",{children:Object(r.b)(n.f)})}}}]);
+//# sourceMappingURL=7.4ce9bc7a.chunk.js.map
