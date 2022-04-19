@@ -38,17 +38,12 @@ padding-top: 5px;
     user-select: none;
     border: none;
     position: absolute;
-    top: 13%;
+    top: 11%;
     left: 80%;
     transition: all .2s linear;
     /* opacity: 1; */
     color: #1abc9c7e;
 }
-
-
-
-
-
 
 .removeBtn{
     display: none;
@@ -95,7 +90,7 @@ padding-top: 5px;
 }
 .iconSearch{
     position: relative;
-    bottom: 55px;
+    bottom: 51px;
     left: 10px;
     opacity: 1;
     transition: opacity .3s ease;
@@ -113,7 +108,7 @@ label{
   position: relative;
   pointer-events: none;
   left: 35px;
-  bottom: 35px;
+  bottom: 31px;
 }
 
 .input:focus ~ label, .input:valid ~label{
