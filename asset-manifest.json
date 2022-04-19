@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/bloodcellsatlas/static/css/main.2fdab10f.chunk.css",
-    "main.js": "/bloodcellsatlas/static/js/main.7eb00474.chunk.js",
-    "main.js.map": "/bloodcellsatlas/static/js/main.7eb00474.chunk.js.map",
+    "main.css": "/bloodcellsatlas/static/css/main.d644ee55.chunk.css",
+    "main.js": "/bloodcellsatlas/static/js/main.1e2162ea.chunk.js",
+    "main.js.map": "/bloodcellsatlas/static/js/main.1e2162ea.chunk.js.map",
     "runtime-main.js": "/bloodcellsatlas/static/js/runtime-main.948206e7.js",
     "runtime-main.js.map": "/bloodcellsatlas/static/js/runtime-main.948206e7.js.map",
     "static/js/2.1ef21f54.chunk.js": "/bloodcellsatlas/static/js/2.1ef21f54.chunk.js",
@@ -18,7 +18,7 @@
     "static/js/7.4ce9bc7a.chunk.js": "/bloodcellsatlas/static/js/7.4ce9bc7a.chunk.js",
     "static/js/7.4ce9bc7a.chunk.js.map": "/bloodcellsatlas/static/js/7.4ce9bc7a.chunk.js.map",
     "index.html": "/bloodcellsatlas/index.html",
-    "static/css/main.2fdab10f.chunk.css.map": "/bloodcellsatlas/static/css/main.2fdab10f.chunk.css.map",
+    "static/css/main.d644ee55.chunk.css.map": "/bloodcellsatlas/static/css/main.d644ee55.chunk.css.map",
     "static/js/2.1ef21f54.chunk.js.LICENSE.txt": "/bloodcellsatlas/static/js/2.1ef21f54.chunk.js.LICENSE.txt",
     "static/media/3dModel.8fe6194e.JPG": "/bloodcellsatlas/static/media/3dModel.8fe6194e.JPG",
     "static/media/404page01.7f2198b8.svg": "/bloodcellsatlas/static/media/404page01.7f2198b8.svg",
@@ -159,7 +159,7 @@
   "entrypoints": [
     "static/js/runtime-main.948206e7.js",
     "static/js/2.1ef21f54.chunk.js",
-    "static/css/main.2fdab10f.chunk.css",
-    "static/js/main.7eb00474.chunk.js"
+    "static/css/main.d644ee55.chunk.css",
+    "static/js/main.1e2162ea.chunk.js"
   ]
 }
